@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  // body {
+  //   height: 200rem;
+  //   // background-color: rgb(110, 110, 110);
+  // }
+  // nav {
+  //   position: fixed;
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: center;
+  //   background-color:#fff !important;
+  //   align-items: center;
+  //   height: 10rem;
+  //   z-index: 3;
+  // }
+  nav{ 
+  position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff !important;   
+    height: 10rem;
+    z-index: 10;
+    flex-direction: column;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 1rem;
+    color: #000000;
+  }
+  .AppBg
+  {
+    background-color: var(--APP_BASED_BACKGROUND_COLOR) !important;   
+  }
+  

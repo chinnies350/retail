@@ -1,0 +1,212 @@
+.primary_Button{ 
+    width: 170px;
+    height: 45px; 
+    background-color:var(--APP_BASED_PRIMARY_BUTTON_COLOR)!important;
+    color:#fff; 
+    font-family: var(  --HEADING_FONT_FAMILY );
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+    border-radius: 8px;   
+    display: flex; 
+    letter-spacing: 0.5px;
+    justify-content:space-between;
+    align-items: center; 
+    z-Index:2;
+    margin-top: 1rem; 
+  }
+   
+  .primary_Button {
+    border: 1px solid;
+    overflow: hidden;  
+    span {
+      z-index: 20;
+    }
+    
+    &:after {
+      background: #fff;
+      content: "";
+      height: 155px;
+      left: -75px;
+      opacity: .2;
+      position: absolute; 
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+      width: 50px;
+      z-index: -10;
+    }
+  }
+  
+  .primary_Button:hover {  
+    &:after {
+      left: 120%;
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1); 
+    }
+  }
+  
+  
+  .primary_Button:focus {
+    border:1.8px solid var(--APP_BASED_PRIMARY_BUTTON_COLOR);
+    background-color:#ffffff!important;
+    color: var(--APP_BASED_PRIMARY_BUTTON_COLOR); 
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .primary_Button:focus:hover {
+    border:1.8px solid var(--APP_BASED_PRIMARY_BUTTON_COLOR);
+    background-color:white!important;
+    color: var(--APP_BASED_PRIMARY_BUTTON_COLOR); 
+   font-weight: 600;
+    font-size: 14px;
+  }
+
+  .primary_Button:disabled,
+  .primary_Button[disabled] {
+
+
+        width: 170px;
+        height: 45px; 
+        background-color:grey !important;
+        color:#fff; 
+        font-family: var(  --HEADING_FONT_FAMILY );
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px; 
+        border-radius: 8px;   
+        display: flex; 
+        letter-spacing: 0.5px;
+        justify-content:space-between;
+        align-items: center; 
+        z-Index:2; 
+
+
+  }
+  // .content-container {
+  //   height: 100%;
+  //   overflow: auto;
+  // }
+
+  .upper-menu-container {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .content-wrapper {
+    position: absolute;
+    top: 50px; /* Adjust the top position based on the menu height */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+  }
+
+
+
+
+
+
+  
+/* Force update ant style */ 
+.ant-input {
+  padding:24px 14px 6px 11px; 
+  font-size: 16px; 
+  font-weight: 490; 
+  color: #000;
+ 
+}
+.ant-input:hover {
+  padding: 24px 14px 6px 11px;
+  font-size: 16px; 
+  border: #1292EE solid 1px;
+}
+.ant-input:focus {
+  padding: 24px 14px 6px 11px;
+  font-size: 16px; 
+  border: #1292EE solid 1px;
+}
+
+
+
+
+.ant-input-affix-wrapper >input.ant-input {
+  /* padding: 0; */
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;  
+  transition-duration:0.60s;  
+  }
+  
+  .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #4096ff;
+  border-inline-end-width: 1px;
+  background-color: none;
+  z-index: 0;
+  transition-duration:0.60s;   
+  }
+  
+  
+  .ant-input-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  min-width: 0; 
+  color: rgba(0, 0, 0, 0.88);
+  height: 50px;
+  line-height: 1.5714285714285714;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.2s;
+  }
+  
+  
+  .ant-input-affix-wrapper >input.ant-input {
+  // padding: 0;
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  }
+  
+  .ant-input-affix-wrapper > input.ant-input {
+  font-size: inherit;
+  border: none;
+  padding:43px -2px;
+  padding-top: 1rem;
+  border-radius: 0;
+  outline: none;
+  }
+  
+
+  
+  .ant-input:disabled{
+    color: #000;
+    // background-color: grey;
+    }
+    
+    
+    .ant-form-item-row .ant-form-item-control .ant-form-item-control-input .ant-form-item-control-input-content .ant-input-textarea-affix-wrapper{
+    height:100%
+    }
+    
+    .ant-input-search-button{
+    display:none
+    }
+    .ant-input-search {
+    width: var(--INPUT_FIELD_WIDTH) !important;
+    }
+    .searchDiv .ant-input{
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem !important;
+    width:100%;
+    height: 45px;
+    font-size: 14px; 
+    }
+    

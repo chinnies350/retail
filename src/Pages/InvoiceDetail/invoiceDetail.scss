@@ -1,0 +1,491 @@
+
+
+.invoice-detail-bg{
+    background-color: #F5FAFF;
+    height: 100vw;
+    // width: 100vw;
+  }
+  
+  .invoice-detail-div{
+     
+    margin:2vw 10vh;
+    padding: 10vw 5vh;  
+    height: min(40vw,250px); 
+    // background-color: #e29c9c;
+    align-items: center; 
+    line-height:40px; 
+  }
+  
+  .invoice-1st-txt{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    // font-size: min(3.5vw,250px);
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .invoice-2nd-txt{
+  display: flex;
+  justify-content:flex-start;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size:16px; 
+  letter-spacing: 0.01em; 
+  margin: 0.2vw 0vh;
+  padding: 0.2vw 0vh;  
+  flex-wrap: wrap; 
+  row-gap: 0rem; 
+  }
+  
+  .invoice-toggle{ 
+    display: flex;
+  }
+  
+  .invoice-drop-items{
+    
+    margin: 3vw 0vh;  
+    align-items: center;
+    align-content: center;
+    display: flex;  
+    line-height: 22px;
+    flex-wrap: wrap;  
+    justify-content:flex-start;  
+    font-family: var(--PARA_FONT_FAMILY);
+  
+  }
+  
+  .invoice-4th-row{
+    width: 50vh;
+    height:9vh;
+    margin:1vw 3vh;  
+    padding:1vw 0vh;  
+    display: flex;  
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+  
+  
+  }
+  
+  .field-DropDown{
+   width:160px !important;    
+  }
+  
+  
+  .Invoice-details-bg{
+     
+    margin: 1vw 2vh;
+    padding:2vw 1vh; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+  }
+  
+  .Invoice-details-tittle{
+    margin: 1vw 9vh;
+    padding: 1vw 0vh;
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;  
+    line-height: 25px;
+    letter-spacing: 0.01em; 
+    color: #004BA9;
+  }
+  
+  .Invoice-details-fields{ 
+    width: 60vh;
+    height: 26vh;
+    margin: 3vw 9vh;
+    padding: 1vw -1vh;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Invoice-details-pricedetails{
+    margin: 5vw 10vh;
+    padding:2vw 1vh;  
+    border-radius: 8px; 
+    background-color: #F0F0F080;
+  }
+  
+  .pricedetails-details-tittle{
+    margin: 1vw 6.5vh;
+    padding: 1vw 0vh;
+    font-size:18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;  
+    line-height: 25px;
+    letter-spacing: 0.01em; 
+    color: #004BA9;
+  }
+  
+  .pricedetails-details{ 
+    display: flex;  
+    flex-wrap: wrap;
+    width: 40vw; 
+    height: 4vh;
+   font-family: VAR(--PARA_FONT_FAMILY);
+  }
+  
+  
+  .pricedetails-Amtdetail{  
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  
+  .sbmt-btn{
+    opacity: 12% !important;
+  }
+  
+  .pricedetails-prcedbutton{
+    margin: 3vw 9vh;
+    padding: 1vw -1vh;
+  }
+  
+  .pricedetails-div{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    flex-direction: row;
+      row-gap: 5rem;
+  }
+  
+  .Amtdetail-txt{  
+    font-size:16px;
+    width: 270px;   
+    line-height: 10px;
+    margin: 1vw 2vh;    
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  
+  .AmPay{
+    font-size:20px; 
+    font-weight: 500;
+  }
+  
+  .prcdPay{
+    font-size:13px; 
+    color: #004BA9;
+  }
+  
+  .Invoice-detail-cont{
+   
+    margin: 1vw 0vh;
+  }
+  .small-font{
+    font-size:15px;
+  }
+  .Pay_options-div{
+    margin: 1vw 0vh;
+    padding: 1vw 6vh;
+    background-color: #E8ECF1; 
+    border-radius: 8px;
+  }
+  
+  .Pay_options{
+    margin: 1vw 0vh;
+    padding: 3vw 6vh;
+    background-color: #ffffff; 
+    border-radius: 6px;
+  }
+  
+  .Pay_options-fields{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // width: 41vw;
+    padding: 0vw 0vh;
+  }
+  .pay-btn{
+    width: 245px;
+    height: 45px; 
+    margin: 2vw 0vh;
+    padding: 1vw 0vh;
+    background-color: #901D77;
+    color: #ffffff;
+    font-family:var(--HEADING_FONT_FAMILY) ;
+    letter-spacing: 1px;
+    border: none;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    text-align: center; 
+    align-items: center;
+    border-radius: 6px;
+    transition-duration:0.60s;  
+  }
+  
+  .pay-btn:focus{
+    width: 245px;
+    height: 45px; 
+    margin: 2vw 0vh;
+    padding: 1vw 0vh;
+    background-color: #ffffff;
+    color: #000000;
+    font-family:var(--HEADING_FONT_FAMILY) ;
+    letter-spacing: 1px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    align-items: center;
+    border-radius: 6px;
+    transition-duration:0.60s;  
+  }
+  
+  
+  .switch-pay-btn{
+    width: 200px;
+    height: 45px; 
+    margin: 2vw 0vh;
+    padding: 1vw 0vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-family:var(--HEADING_FONT_FAMILY) ;
+    letter-spacing: 1px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    align-items: center;
+    border-radius: 26px;
+    transition-duration:0.60s;  
+  }
+  
+  .Pay_options-imgfield{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    align-items: center;
+    padding: 0vw 3vh;
+  }
+  
+  .Pay_options-inpfield{ 
+    text-align: center; 
+    align-items: center; 
+    padding: 0vw 8vh;
+  }
+  
+  .Pay_options-inpimgfield{
+    margin: 2vw 0vh;
+  }
+  
+  .tc-apply{
+    font-size:12px;
+    color: #000;
+  }
+  
+  .Invoice-cont{ 
+    text-align: center;  
+    padding: 0vw 0vh;  
+  }
+  
+  .Invoice-content{
+     
+    margin: 1vw 5vh;
+    padding: 0vw 0vh;
+    text-align: left;
+    font-size:18px;
+    font-weight: 500;
+    font-family: var(--HEADING_FONT_FAMILY);  
+  }
+  
+  
+  hr.new2 {
+    border-top: 0.1px dashed rgb(90, 90, 90); 
+  }
+  
+  hr.new3 { 
+    border-top: 1px dotted   rgb(90, 90, 90); 
+  }
+  
+  .Invoice-cont-headcont{
+    margin: 0.5vw 0vh;
+  }
+   
+  .Invoice-cont-head{ 
+    
+    font-size: 24px;
+    font-weight: 600;   
+    color: #3a3a3a;
+    font-family: var(--HEADING_FONT_FAMILY);
+  }
+   
+  .Invoice-cont-sub{  
+    font-size: 14px; 
+    color: #3a3a3a;
+    font-family: var(--HEADING_FONT_FAMILY);
+  }
+  
+  .success-img{
+    width: 50px;
+  }
+  .Invoice-Amtdetails{
+    width:50vh; 
+    padding:0vw 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Invoice-Amtdetail-txt{  
+    font-size:14px;
+    width: 270px;   
+    line-height: 8px;
+    margin: 1vw 2vh;    
+    font-family: var(--PARA_FONT_FAMILY);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  
+  .Invoice-AmPay{
+    font-size:18px; 
+    margin: 1vw 0vh;
+    font-weight:500;
+    font-family: var(--PARA_FONT_FAMILY);
+  }
+  
+  .Invoice-dwld-btn{
+    margin: 1vw 0vh;
+    // padding: 1vw 9vh;
+    width: 250px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items:center;
+    justify-content:space-evenly;
+    border: #616161 solid 0.03px; 
+    
+    // border-style: dashed;
+    // box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background-color: #ffffff;
+    color:#000000;
+    font-weight:500;
+    border-radius: 25px;
+    font-size:16px;
+    font-family: var(--HEADING_FONT_FAMILY);
+    transition-duration:0.60s;  
+  }
+  
+  .Invoice-dwld-btn:focus{
+    margin: 1vw 0vh;
+    // padding: 1vw 9vh;
+    width: 250px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items:center;
+    justify-content:space-evenly; 
+    // box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    // background-color: #33585C;
+    color:#000000;
+  
+    font-weight:500;
+    border-radius:25px;
+    font-size:16px;
+    font-family: var(--HEADING_FONT_FAMILY);
+    transition-duration:0.60s;  
+  }
+  
+  .vl {
+    border-left: 0.36px solid rgb(190, 190, 190);
+    height: 150px;
+    position: absolute;
+    left: 40%;  
+  }
+
+  .mail-div{
+    margin: 1vw 3vh;
+    padding:  1vw 0vh; 
+    font-size: 14px;
+    text-align: center; 
+  }
+ 
+  .mail-inp-btn{ 
+    padding:  1vw 0vh;
+    text-align: center;
+  }
+  .mail-btn{
+    width: 100px;
+    height: 35px;
+    background-color: #31af42;
+    color: #ffffff;
+    font-family: var(--PARA_FONT_FAMILY);
+    border: none;
+    border-radius: 6px;
+  }
+
+
+
+.Upi-imgfield{
+    margin: 2vw 0vh;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Upi-imgG{
+    width: fit-content;
+  }
+  .Upi-img{ 
+    cursor: pointer;  
+    transition-duration:0.60s;  
+    border: none; 
+    background:none;
+    padding: 3px;
+  }
+
+  .Upi-img:hover{ 
+    width: fit-content;
+    cursor: pointer;
+    border: #000 solid 1px;
+    border-radius: 6px;
+    transition-duration:0.60s;  
+  }
+
+  .Upi-img:focus{ 
+    width: fit-content;
+    cursor: pointer;
+    border: #000 solid 1px;
+    border-radius: 6px;
+    transition-duration:0.60s;  
+  }
+
+  
+
+ #activeData{
+    width: fit-content;
+    cursor: pointer;
+    border: #000 solid 1px;
+    border-radius: 6px;
+    transition-duration:0.60s;
+  }
+
+
+    
+
+  
+
+
+ 
+   
